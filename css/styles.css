@@ -3114,6 +3114,9 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #212529;
   --bs-gradient: none;
+  .github{
+    filter: invert(0%);
+  }
 }
 
 .btn-link {
@@ -11043,4 +11046,11 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.github{
+  filter: invert(100%);
+}
+.imagen-perfil{
+  border-radius: 150px;
 }
